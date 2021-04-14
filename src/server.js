@@ -8,7 +8,7 @@ const server = express()
 server
     // utilizar body do req
     .use(express.urlencoded({ extended: true }))
-    // utilizando os arquivos estáticos
+    // utilizando os arquivos estático
     .use(express.static('public'))
 
     // configurar template engine
